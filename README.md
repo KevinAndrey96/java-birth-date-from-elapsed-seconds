@@ -3,7 +3,7 @@
 [![CI](https://github.com/KevinAndrey96/java-birth-date-from-elapsed-seconds/actions/workflows/ci.yml/badge.svg)](https://github.com/KevinAndrey96/java-birth-date-from-elapsed-seconds/actions/workflows/ci.yml)
 ![Java 17 | 21 | 25](https://img.shields.io/badge/Java-17%20%7C%2021%20%7C%2025-ED8B00?logo=openjdk&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-3.9-C71A36?logo=apachemaven&logoColor=white)
-![JUnit 5](https://img.shields.io/badge/JUnit-5-25A162?logo=junit5&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-6-25A162?logo=junit5&logoColor=white)
 [![Licencia MIT](https://img.shields.io/badge/licencia-MIT-green)](LICENSE)
 
 Programa en **Java** que calcula la **fecha y hora de nacimiento** de una persona a partir de una **fecha de referencia** en formato `aaaammdd` y la **cantidad de segundos que ha vivido**, con validación estricta del calendario y aritmética de fechas con `java.time`.
@@ -58,7 +58,7 @@ Sin argumentos, el programa pide ambos valores por consola. Los segundos aceptan
 ## Calidad
 
 ```bash
-mvn -B verify   # compila con -Xlint:all -Werror y ejecuta 39 pruebas JUnit 5
+mvn -B verify   # compila con -Xlint:all -Werror y ejecuta 39 pruebas JUnit
 ```
 
 GitHub Actions compila y prueba en Java 17, 21 y 25, y ejecuta una prueba de humo del JAR.
